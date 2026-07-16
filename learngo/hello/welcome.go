@@ -5,6 +5,6 @@ import (
 )
 
 func Welcome(name string) string {
-	message := fmt.Sprintf("Welcome %v for the first module use", name)
+	message := fmt.Sprintf("Welcome %v", name)
 	return message
 }
